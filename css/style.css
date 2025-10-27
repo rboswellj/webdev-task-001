@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    background-color: #57b3a3;
+}
+
+article {
+    max-width: 70%;
+    padding: 5% 10%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+article h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 0 0 2rem 0;
+}
+
+article li {
+    margin-bottom: 1.5rem;
+}
+
+article li strong {
+    font-size: 1.1rem;
+    color: rgb(205, 26, 62)
+}
+
+

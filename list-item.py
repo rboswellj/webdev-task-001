@@ -15,4 +15,4 @@ with open(VOCAB_FILE, "r", encoding="utf-8") as f:
             list_items.append(f"<li><strong>{split_line[0]}:</strong> {split_line[1].strip()}</li>\n")
 
 with open(VOCAB_TAGGED, "w", encoding="utf-8") as f2:
-    f2.writelines(list_items)
+    f2.writelines(list_items) 
